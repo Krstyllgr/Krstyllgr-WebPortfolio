@@ -1,0 +1,33 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #03F6CC;
+}
+
+.containerNav, .nav {
+  background-color: #03F6CC;
+}
+
+.navBrand {
+  background-color: #03F6CC;
+  font-weight: bolder;
+}
+
+#basic-navbar-nav {
+  background-color: #03F6CC;
+}
+
+.nav-link {
+  font-weight: normal;
+  color: #1E1E1E;
+  transition: color 0.3s ease, font-weight 0.1 ease;
+  margin-right: 10px;
+  scroll-behavior: auto;
+}
+
+.nav-link:hover {
+  font-weight: bold;
+}
